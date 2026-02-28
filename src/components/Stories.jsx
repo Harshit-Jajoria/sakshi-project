@@ -4,7 +4,7 @@ export default function Stories() {
   return (
     <section className="section" id="stories">
       <div className="container">
-        <h2>Stories of Struggle & Hope</h2>
+        <h2>Stories of Struggle </h2>
         <p>
           Empirical research and lived experiences reveal the human faces behind
           educational inequality. These narratives ground abstract policy in
@@ -12,17 +12,7 @@ export default function Stories() {
           equitable schooling.
         </p>
 
-        <blockquote>
-          "We had to sit under the neem tree when there was no classroom. The
-          teacher would come when he felt like it. My sister wanted to learn,
-          but there was no school for girls nearby. Now, with the community's
-          support, she's in Class V."
-          <br />
-          <br />
-          <span style={{ fontSize: "0.9rem", fontStyle: "normal" }}>
-            — Rekha, rural Maharashtra
-          </span>
-        </blockquote>
+        
 
         <p style={{ marginTop: "2rem" }}>
           These stories illustrate the profound impact of Prof. Sinha's work.

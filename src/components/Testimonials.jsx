@@ -4,24 +4,27 @@ export default function Testimonials() {
   return (
     <section className="section testimonials" id="testimonials">
       <div className="container">
-        <h2>Impact & Recognition</h2>
+        <h2>EARLY LIFE AND ACADAMIC BACKROUND</h2>
         <div className="testimonial-item">
           <blockquote>
-            "Prof. Sinha's work bridges the gap between academic rigor and
-            grassroots activism. 'Battle for Schools' is not merely an
-            analysis—it's a clarion call for educators and policymakers to
-            dismantle the systems that perpetuate educational inequality."
+            <strong>Born: </strong>7 January 1950, Nellore, Andhra Pradesh,
+            India.
           </blockquote>
-          <p className="author">— Educational Leadership Forum, India</p>
+        </div>
+
+        <div className="testimonial-item">
+          <blockquote>
+            <strong>Education: </strong>Master’s in Political Science – Osmania
+            University.PhD – Jawaharlal Nehru University.
+          </blockquote>
         </div>
         <div className="testimonial-item">
           <blockquote>
-            "This portfolio crystallizes decades of research and lived
-            experience into actionable insights. Communities using Prof. Sinha's
-            frameworks have transformed their local schools and proven that
-            educational entitlement is achievable."
+            <strong>Academic Career: </strong>Professor of Political Science,
+            University of Hyderabad. Her academic work on democracy,
+            development, and social policy informed her later activism in child
+            rights and education reform.
           </blockquote>
-          <p className="author">— Child Rights Coalition, South Asia</p>
         </div>
       </div>
     </section>

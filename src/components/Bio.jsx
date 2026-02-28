@@ -21,29 +21,7 @@ export default function Bio() {
           educational exclusion. Her research seamlessly bridges academic rigor
           with grassroots activism.
         </p>
-        <h3 style={{ marginTop: "2.5rem", marginBottom: "1rem" }}>
-          Notable Achievements
-        </h3>
-        <ul>
-          <li>
-            Founding Chairperson – National Commission for Protection of Child
-            Rights (2007–2014)
-          </li>
-          <li>
-            Founder & Director – Mahita Village Foundation (MVF), working in
-            rural Maharashtra
-          </li>
-          <li>
-            Ramon Magsaysay Award for Peace & International Understanding (2003)
-          </li>
-          <li>
-            Padma Shri Award – India's civilian honor for exceptional service
-          </li>
-          <li>
-            Architect of India's Right to Free & Compulsory Education Act (RTE),
-            2009
-          </li>
-        </ul>
+ 
       </div>
     </section>
   );

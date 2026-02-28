@@ -330,7 +330,7 @@ p {
 }
 
 .about p {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.9;
   max-width: 800px;
   margin: 0 auto;
@@ -434,68 +434,54 @@ p {
    AWARDS SECTION
    ============================================ */
 
+/* ============================================
+   AWARDS SECTION
+   ============================================ */
+
 .awards {
-  background: linear-gradient(to bottom, #f8faff, #fff);
+  background: linear-gradient(to bottom, #f8faff, #ffffff);
+  padding: 4rem 0;
 }
 
-
 .awards-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;  /* left / right ratio */
   gap: 3rem;
-  align-items: stretch; /* make both columns equal height */
+  align-items: stretch;               /* equal column height */
   margin-top: 2rem;
 }
 
-/* give left/right proportional widths (0.8fr / 1.2fr equivalent) */
-.awards-content > .awards-images-vertical {
-  flex: 0.8 1 0%;
-}
-.awards-content > .awards-list {
-  flex: 1.2 1 0%;
-}
-
-/* Ensure flex children can shrink/grow correctly inside the row */
-.awards-content > * {
-  min-height: 0;
-}
+/* ============================================
+   LEFT SIDE IMAGES
+   ============================================ */
 
 .awards-images-vertical {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  /* stretch to fill the grid row height (set by the taller column) */
-  height: 100%;
-  min-height: 0;
+  height: 90%;
 }
 
-/* Make each image share the available column height equally */
-
-/* Two stacked images should split the full column height evenly.
-   Subtract the gap between images so each image fits exactly. */
 .award-img,
 .award-img-large {
-  flex: 0 0 auto;
+  flex: 1;                /* each image takes 50% */
   width: 100%;
-  /* height = (available column height - gap) / 2 */
-  height: calc((100% - 1.5rem) / 2);
-  max-height: calc((100% - 1.5rem) / 2);
-  min-height: 0;
-  object-fit: cover;
-  display: block;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(100, 108, 255, 0.15);
-  transition: transform 0.3s ease;
-}
-
-.award-img-large {
+  height: 100%;           /* fill allocated space */
+  object-fit: cover;      /* crop without distortion */
   border-radius: 16px;
-  box-shadow: 0 12px 35px rgba(100, 108, 255, 0.2);
+  box-shadow: 0 12px 35px rgba(100, 108, 255, 0.15);
+  transition: transform 0.3s ease;
+  display: block;
 }
 
 .award-img:hover,
 .award-img-large:hover {
   transform: scale(1.02);
 }
+
+/* ============================================
+   RIGHT SIDE LIST
+   ============================================ */
 
 .awards-list h3 {
   margin-bottom: 2rem;
@@ -508,20 +494,22 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
 .honors-list li {
-  background: #fff;
+  background: #ffffff;
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 12px;
   border-left: 4px solid #646cff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
 .honors-list li:hover {
-  transform: translateX(8px);
-  box-shadow: 0 6px 16px rgba(100, 108, 255, 0.15);
+  transform: translateX(6px);
+  box-shadow: 0 6px 18px rgba(100, 108, 255, 0.15);
   border-left-color: #46e6b6;
 }
 
@@ -539,7 +527,6 @@ p {
   font-size: 0.95rem;
   line-height: 1.6;
 }
-
 /* ============================================
    TESTIMONIALS SECTION
    ============================================ */
@@ -560,8 +547,8 @@ p {
 .testimonial-item {
   background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(10px);
-  padding: 2.5rem;
-  margin-bottom: 2rem;
+  padding: 2rem;
+  /* margin-bottom: 2rem; */
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   max-width: 700px;
@@ -577,11 +564,16 @@ p {
 }
 
 .testimonial-item blockquote {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-style: italic;
   margin: 0 0 1.5rem 0;
   line-height: 1.8;
   font-weight: 300;
+}
+
+.testimonial-item blockquote strong{
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .testimonial-item blockquote::before {

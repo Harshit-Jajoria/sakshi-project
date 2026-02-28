@@ -27,8 +27,8 @@ function App() {
       <Hero />
       {/* core sections for design purposes */}
       <About />
-      <Services />
-      <Features />
+      {/* <Services /> */}
+      {/* <Features /> */}
       <Testimonials />
 
       {/* portfolio content sits after the generic sections */}
@@ -40,7 +40,7 @@ function App() {
       <Reflections />
       <References />
 
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
