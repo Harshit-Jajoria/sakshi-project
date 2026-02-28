@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Stories() {
   return (
-    <section className="section" id="stories">
+    <section className="section stories" id="stories">
       <div className="container">
-        <h2>Stories of Struggle </h2>
+        <h2>Stories of Struggle</h2>
         <p>
           Empirical research and lived experiences reveal the human faces behind
           educational inequality. These narratives ground abstract policy in
@@ -12,24 +12,50 @@ export default function Stories() {
           equitable schooling.
         </p>
 
-        
+        <div className="story" style={{ marginTop: "2rem" }}>
+          <h3>🌟 Story 1: From Child Labour to Classroom Success</h3>
+          <strong>Theme:</strong> Rescue, Bridge Schooling, Mainstream Education
+          <p>
+            In rural Andhra Pradesh, many children once worked in farms, brick
+            kilns, and households instead of attending school. Through community
+            mobilization and bridge camps run by MV Foundation, thousands of
+            children were withdrawn from labour and enrolled in schools.
+          </p>
+          <ul>
+            <li>Over 600,000 child labourers were withdrawn from work.</li>
+            <li>
+              Many were mainstreamed into formal education and retained in
+              schools.
+            </li>
+          </ul>
+          <p>
+            <strong>Impact:</strong>
+          </p>
+          <ul className="impact-list">
+            <li>Children gained literacy and confidence</li>
+            <li>Families began valuing education over child labour</li>
+            <li>Villages declared “child-labour-free”</li>
+          </ul>
+        </div>
 
-        <p style={{ marginTop: "2rem" }}>
-          These stories illustrate the profound impact of Prof. Sinha's work.
-          When communities are mobilized to monitor schools and demand
-          accountability, transformations occur. Schools become safer. Teachers
-          become more dedicated. Learning outcomes improve. Most importantly,
-          children—especially girls and marginalized children—see themselves as
-          agents of change rather than passive recipients.
-        </p>
-
-        <p style={{ marginTop: "1.5rem" }}>
-          Communities that once watched their children struggle in
-          poverty-stricken schools have organized, advocated, and secured
-          government resources. Villages that had no schools for decades now
-          have functioning learning centers. The "battle" is not a distant
-          struggle—it unfolds in homes, fields, and classrooms every day.
-        </p>
+        <div className="story" style={{ marginTop: "2rem" }}>
+          <h3>🌟 Story 2: A Survivor Who Became a Child Rights Advocate</h3>
+          <strong>Related Example:</strong> Anoyara Khatun
+          <p>
+            Born into poverty in West Bengal, Anoyara was trafficked to Delhi
+            and forced into domestic work as a child. She escaped and returned
+            to her village, where she began campaigning against child
+            trafficking, child labour, and child marriage.
+          </p>
+          <p>
+            <strong>Impact:</strong>
+          </p>
+          <ul className="impact-list">
+            <li>Helped rescue vulnerable children</li>
+            <li>Raised awareness about trafficking and child marriage</li>
+            <li>Received the Nari Shakti Puraskar for her work</li>
+          </ul>
+        </div>
       </div>
     </section>
   );

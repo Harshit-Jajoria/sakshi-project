@@ -431,6 +431,131 @@ p {
 }
 
 /* ============================================
+   STORIES SECTION - COMPLETE REDESIGN
+   ============================================ */
+
+.stories {
+  background: #fafbfc;
+  padding: 5.5rem 0;
+}
+
+.stories > .container > p:first-of-type {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 4rem;
+}
+
+/* Individual Story Card */
+.story {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-top: 6px solid #646cff;
+}
+
+.story:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(100, 108, 255, 0.15);
+}
+
+.story h3 {
+  font-size: 1.8rem;
+  color: #1a2332;
+  margin-bottom: 1.25rem;
+  line-height: 1.4;
+}
+
+/* Theme / Related Example Label */
+.story strong {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #646cff;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 0.5rem;
+}
+
+/* Narrative text */
+.story > p:not(:last-of-type) {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Key facts/stats list (the "Over 600,000..." bullets) */
+.story ul:not(.impact-list) {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.story ul:not(.impact-list) li {
+  background: linear-gradient(
+    135deg,
+    rgba(100, 108, 255, 0.05),
+    rgba(70, 230, 182, 0.02)
+  );
+  border-left: 4px solid #646cff;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.story ul:not(.impact-list) li:last-child {
+  margin-bottom: 0;
+}
+
+/* Impact list (checkmarks) */
+.story .impact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.story .impact-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.story .impact-list li:last-child {
+  margin-bottom: 0;
+}
+
+.story .impact-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 10px;
+  /* top: ; */
+  color: #46e6b6;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* "Impact:" label before lists */
+.story > p:last-of-type {
+  font-weight: 700;
+  color: #1a2332;
+  font-size: 1.05rem;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* ============================================
    AWARDS SECTION
    ============================================ */
 
@@ -445,9 +570,9 @@ p {
 
 .awards-content {
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;  /* left / right ratio */
+  grid-template-columns: 0.8fr 1.2fr; /* left / right ratio */
   gap: 3rem;
-  align-items: stretch;               /* equal column height */
+  align-items: stretch; /* equal column height */
   margin-top: 2rem;
 }
 
@@ -464,10 +589,10 @@ p {
 
 .award-img,
 .award-img-large {
-  flex: 1;                /* each image takes 50% */
+  flex: 1; /* each image takes 50% */
   width: 100%;
-  height: 100%;           /* fill allocated space */
-  object-fit: cover;      /* crop without distortion */
+  height: 100%; /* fill allocated space */
+  object-fit: cover; /* crop without distortion */
   border-radius: 16px;
   box-shadow: 0 12px 35px rgba(100, 108, 255, 0.15);
   transition: transform 0.3s ease;
@@ -571,7 +696,7 @@ p {
   font-weight: 300;
 }
 
-.testimonial-item blockquote strong{
+.testimonial-item blockquote strong {
   font-size: 2rem;
   font-weight: 600;
 }
