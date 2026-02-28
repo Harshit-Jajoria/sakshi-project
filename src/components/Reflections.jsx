@@ -6,44 +6,49 @@ export default function Reflections() {
       <div className="container">
         <h2>Personal Reflections & Contemporary Relevance</h2>
         <p>
-          Prof. Sinha's analysis remains strikingly relevant in 2024. Despite
-          the Right to Education Act (2009) and increased enrollment figures,
-          educational quality and equity remain contested. Her critique exposes
-          a fundamental paradox: schools exist, but they often fail children
-          living in poverty.
+          My knowledge of the socioeconomic realities that influence students'
+          lives has grown as a result of researching Shantha Sinha's life and
+          work, the main obstacles to guaranteeing children's right to an
+          education, and the inspirational tales of perseverance and optimism.
+          The notion that education is a potent tool for social justice, equity,
+          and human dignity rather than just an academic process has been
+          reaffirmed by this effort.
         </p>
 
         <p style={{ marginTop: "1.5rem" }}>
-          <strong>For educators:</strong> This work demands introspection. How
-          do our teaching practices reflect or challenge systemic inequities? Do
-          we recognize poverty as a structural barrier, not a personal failing?
-          Can we mobilize our classrooms as spaces of critical consciousness,
-          where marginalized voices are centered and validated?
+          After giving the project some critical thought, I came to the
+          conclusion that obstacles including poverty, gender discrimination,
+          migration, child labor, and lax enforcement of protective legislation
+          still have an impact on children's access to education today. Teachers
+          commonly deal with pupils who suffer with irregular attendance, lack
+          of finances, family responsibilities, or inadequate parental support
+          in today's educational situations, particularly in diverse and
+          socioeconomically different classrooms. I was able to see kids'
+          difficulties with more empathy and awareness thanks to the project,
+          which enabled me to link these classroom realities with more general
+          systemic problems.
         </p>
 
         <p style={{ marginTop: "1.5rem" }}>
-          <strong>For policymakers:</strong> "Battle for Schools" insists that
-          compliance with enrollment targets is insufficient. Quality, safety,
-          and genuine learning must be measured. Community accountability
-          mechanisms—not just top-down inspections—are essential. Budget
-          allocation must prioritize the poorest schools, not reinforce existing
-          hierarchies.
+          My teaching technique will be significantly impacted by this
+          contemplation. It has inspired me to take a more inclusive and
+          child-centered approach to teaching instead of relying solely on
+          textbooks. I'm inspired to spot students who are at danger, offer them
+          academic and emotional help, and interact with parents and the
+          community to highlight the value of education. Students can benefit
+          from early awareness and compassion development if classroom
+          activities include conversations about equality, child rights, and
+          social responsibility.
         </p>
 
         <p style={{ marginTop: "1.5rem" }}>
-          <strong>For society:</strong> This work reframes education as an
-          instrument of social justice, not social reproduction. If we truly
-          believe in democracy and equality, educational entitlement cannot be
-          negotiable. Prof. Sinha's "battle" calls us to examine complicity—how
-          we benefit from educational exclusion—and to organize for systemic
-          change.
-        </p>
-
-        <p style={{ marginTop: "1.5rem" }}>
-          The most powerful lesson from this work is that change is possible.
-          Communities have proven that when they organize, demand
-          accountability, and claim their rights, schools transform. The battle
-          continues, but so does the hope.
+          All things considered, this effort has reinforced my conviction that
+          educators are essential to preserving children's rights, fostering a
+          just society, and transferring knowledge. I can make a small but
+          meaningful contribution to the greater objective of guaranteeing that
+          every kid has the right to education, dignity, and a bright future by
+          encouraging inclusive classrooms, raising awareness, and working with
+          the community.
         </p>
       </div>
     </section>
