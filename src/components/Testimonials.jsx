@@ -15,13 +15,13 @@ export default function Testimonials() {
         <div className="testimonial-item">
           <blockquote>
             <strong>Education: </strong>Master’s in Political Science – Osmania
-            University.PhD – Jawaharlal Nehru University.
+            University.PhD – Jawaharlal Nehru University.
           </blockquote>
         </div>
         <div className="testimonial-item">
           <blockquote>
             <strong>Academic Career: </strong>Professor of Political Science,
-            University of Hyderabad. Her academic work on democracy,
+            University of Hyderabad. Her academic work on democracy,
             development, and social policy informed her later activism in child
             rights and education reform.
           </blockquote>

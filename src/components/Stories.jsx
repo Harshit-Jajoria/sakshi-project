@@ -56,6 +56,19 @@ export default function Stories() {
             <li>Received the Nari Shakti Puraskar for her work</li>
           </ul>
         </div>
+
+        <div className="story-video">
+          <h3>🎬 Documentary: The Battle for Schools</h3>
+          <div className="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/pRpG86XBAtM"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="The Battle for Schools Documentary"
+            ></iframe>
+          </div>
+        </div>
+        
       </div>
     </section>
   );
